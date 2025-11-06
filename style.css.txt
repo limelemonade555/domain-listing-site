@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.contact-info {
+    text-align: center;
+    background: #e9ecef;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+
+.domain-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.domain-table th {
+    background: #3498db;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.domain-table td {
+    padding: 15px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.domain-table tr:last-child td {
+    border-bottom: none;
+}
+
+.domain-table tr:hover {
+    background: #f8f9fa;
+}
+
+.domain-name {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.domain-price {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .domain-table {
+        font-size: 0.9em;
+    }
+    
+    .domain-table th,
+    .domain-table td {
+        padding: 10px;
+    }
+}
