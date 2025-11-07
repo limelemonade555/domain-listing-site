@@ -7,16 +7,17 @@ const domains = [
     { name: "bun88.com", price: 1942 },
     { name: "xom88.com", price: 1200 },
     { name: "keo99.com", price: 3265 },
-    { name: "so88.win", price: 1215 },
-    { name: "vip99.top", price: 2093 },
-    { name: "s99.club", price: 1823 },
+    { name: "fun99.net", price: 5508 },
     { name: "xe88.net", price: 3860 },
+    { name: "bh88.net", price: 3236 },
+    { name: "fu88.net", price: 3478 },
+    { name: "so88.win", price: 1215 },
+    { name: "zo88.win", price: 1956 },
+    { name: "s99.club", price: 1823 },
     { name: "bet9.club", price: 5019 },
     { name: "z88.top", price: 2225 },
     { name: "b88.top", price: 2808 },
-    { name: "zo88.win", price: 1956 },
-    { name: "bh88.net", price: 3236 },
-    { name: "fu88.net", price: 3478 }
+    { name: "vip99.top", price: 2093 }
 ];
 
 function displayDomains() {
