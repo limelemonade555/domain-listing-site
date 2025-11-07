@@ -20,7 +20,12 @@ const domains = [
 ];
 
 function displayDomains() {
-    const tbody = document.getElementById('domain-list');
+    const comList = document.getElementById('com-domain-list');
+    const otherList = document.getElementById('other-domain-list');
+    
+    // Clear existing content
+    comList.innerHTML = '';
+    otherList.innerHTML = '';
     
     domains.forEach(domain => {
         const row = document.createElement('tr');
@@ -28,7 +33,11 @@ function displayDomains() {
             <td class="domain-name">${domain.name}</td>
             <td class="domain-price">$${domain.price.toLocaleString()}</td>
         `;
-        tbody.appendChild(row);
+        if (domain.name.endsWith('.com')) {
+            comList.appendChild(row);
+        } else {
+            otherList.appendChild(row);
+        }
     });
 }
 
