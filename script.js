@@ -1,4 +1,5 @@
 const domains = [
+    { name: "kbanks.com", price: 70000 },
     { name: "gun88.com", price: 20427 },
     { name: "fe88.com", price: 23063 },
     { name: "men88.com", price: 5197 },
