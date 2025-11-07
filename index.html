@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>在售列表</h1>
+        <h1>在售域名列表 | Domain Listing</h1>
         
         <div class="contact-info">
             <strong>联系:</strong> EthanCole7257@gmail.com
@@ -17,20 +17,40 @@
         <div class="payment-info">
             接受通过USDT或Gname.com付款，请联系我们以获得支付支持。
         </div>
-
-        <table class="domain-table">
-            <thead>
-                <tr>
-                    <th>域名</th>
-                    <th>价格</th>
-                </tr>
-            </thead>
-            <tbody id="domain-list">
-                <!-- Domain list will be loaded here by JavaScript -->
-            </tbody>
-        </table>
+    <div class="columns-container">
+        <div class="column">
+                <div class="column-header">.COM 域名</div>
+                <div class="domain-list">
+                    <table class="domain-table">
+                        <thead>
+                            <tr>
+                                <th>域名</th>
+                                <th>价格</th>
+                            </tr>
+                        </thead>
+                        <tbody id="com-domain-list">
+                        </tbody>
+                </table>
+            </div>
+        
+            <div class="column">
+                <div class="column-header">其他域名</div>
+                <div class="domain-list">
+                    <table class="domain-table">
+                        <thead>
+                            <tr>
+                                <th>域名</th>
+                                <th>价格</th>
+                            </tr>
+                        </thead>
+                        <tbody id="other-domain-list">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
-
+    
     <script src="script.js"></script>
 </body>
 </html>
