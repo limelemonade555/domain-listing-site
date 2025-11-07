@@ -17,8 +17,9 @@
         <div class="payment-info">
             接受通过USDT或Gname.com付款，请联系我们以获得支付支持。
         </div>
-    <div class="columns-container">
-        <div class="column">
+
+        <div class="columns-container">
+            <div class="column">
                 <div class="column-header">.COM 域名</div>
                 <div class="domain-list">
                     <table class="domain-table">
@@ -29,10 +30,12 @@
                             </tr>
                         </thead>
                         <tbody id="com-domain-list">
+                            <!-- .com domains will be loaded here -->
                         </tbody>
-                </table>
+                    </table>
+                </div>
             </div>
-        
+            
             <div class="column">
                 <div class="column-header">其他域名</div>
                 <div class="domain-list">
@@ -44,13 +47,14 @@
                             </tr>
                         </thead>
                         <tbody id="other-domain-list">
+                            <!-- Other TLD domains will be loaded here -->
                         </tbody>
                     </table>
                 </div>
             </div>
         </div>
     </div>
-    
+
     <script src="script.js"></script>
 </body>
 </html>
