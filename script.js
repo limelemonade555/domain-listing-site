@@ -17,6 +17,8 @@ const domains = [
     { name: "bet9.club", price: 5019 },
     { name: "z88.top", price: 2225 },
     { name: "b88.top", price: 2808 },
+    { name: "funbet.top", price: 12499 },
+    { name: "vuavip.com", price: 20399 },
     { name: "vip99.top", price: 2093 }
 ];
 
