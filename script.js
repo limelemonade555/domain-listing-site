@@ -6,6 +6,7 @@ const domains = [
     { name: "bun88.com", price: 1999 },
     { name: "xom88.com", price: 1299 },
     { name: "keo99.com", price: 3299 },
+    { name: "hit88.net", price: 99999 },
     { name: "fun99.net", price: 5599 },
     { name: "xe88.net", price: 3899 },
     { name: "bh88.net", price: 3299 },
