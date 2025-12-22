@@ -18,17 +18,8 @@ const domains = [
     { name: "z88.top", price: 2299 },
     { name: "b88.top", price: 2899 },
     { name: "funbet.top", price: 12499 },
-    { name: "vuavip.com", price: 20399 },
-    { name: "somvip.com", price: 20399 },
     { name: "win8.club", price: 3399 },
     { name: "win8.win", price: 1199 },
-    { name: "8vip.club", price: 1399 },
-    { name: "8vip.win", price: 2799 },
-    { name: "9vip.club", price: 1399 },
-    { name: "9vip.win", price: 1799 },
-    { name: "88vip.club", price: 1499 },
-    { name: "99vip.win", price: 1899 },
-    { name: "vip99.top", price: 2099 }
 ];
 
 function displayDomains() {
